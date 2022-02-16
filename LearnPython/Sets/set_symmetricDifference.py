@@ -1,0 +1,6 @@
+n1 = int(input())
+eng_s = set(map(int, input().split()))
+n2 = int(input())
+frn_s = set(map(int, input().split()))
+eng_and_frn = eng_s.symmetric_difference(frn_s)
+print(len(eng_and_frn))
